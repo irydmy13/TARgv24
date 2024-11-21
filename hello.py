@@ -1,6 +1,6 @@
 from random import * # *-koik funktsioonid
 #import ->
-from math import * #pi 
+from math import * # pi
 # #ulesanne 1
 # print("Hello World!")
 # nimi=input("Mis on sinu nimi? ") .capitalize() #lower()-aaa, upper()-AAA, capitalize()-Aaa
@@ -29,15 +29,21 @@ from math import * #pi
 
 # #ulesanne 4
 # print("Labimoodu leidmine ")
-# #l-umbermoot
+# l-umbermoot
 # l=float(input("Umbermood:" ))
 # d=l/pi
 # print(f"Labimoodu suurus on {round(d,2)}")
 
-#ulesanne 5
-print("Найти диагональ прямоугольного учаска ")
-N=float(input("Введите длинну в метрах "))
-M=float(input("Введите ширину в метрах "))
-d=float(sqrt(N**2+M**2))
-print(f"Длина диагонали прямоугольного участка = {d}")
+# #ulesanne 5
+# print("РќР°Р№С‚Рё РґРёР°РіРѕРЅР°Р»СЊ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР° ")
+# N=float(input("Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР° РІ РјРµС‚СЂР°С… "))
+# M=float(input("Р’РІРµРґРёС‚Рµ С€РёСЂРёРЅСѓ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР° РІ РјРµС‚СЂР°С… "))
+# d=sqrt(N**2+M**2)
+# print(f"Р”Р»РёРЅР° РґРёР°РіРѕРЅР°Р»Рё РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР° = {round(d,2)} РјРµС‚СЂРѕРІ")
+
+#ulesanne 6
+time=float(input("РЎРєРѕР»СЊРєРѕ С‡Р°СЃРѕРІ РІР°Рј РїРѕС‚СЂРµР±РѕРІР°Р»РѕСЃСЊ, С‡С‚РѕР±С‹ РґРѕРµС…Р°С‚СЊ? ")) 
+distance=float(input("РЎРєРѕР»СЊРєРѕ РєРёР»РѕРјРµС‚СЂРѕРІ РІС‹ РїСЂРѕРµС…Р°Р»Рё? ")) 
+speed=distance/time 
+print(f"Р’Р°С€Р° СЃРєРѕСЂРѕСЃС‚СЊ Р±С‹Р»Р° {round(speed,2)} РєРј/С‡")
 

@@ -1,6 +1,6 @@
 from random import * # *-koik funktsioonid
 #import ->
-from math import * #pi ka
+from math import * #pi 
 # #ulesanne 1
 # print("Hello World!")
 # nimi=input("Mis on sinu nimi? ") .capitalize() #lower()-aaa, upper()-AAA, capitalize()-Aaa
@@ -27,9 +27,17 @@ from math import * #pi ka
 # kokku=kokku-kommi
 # print(f"Jaak on {kokku} kommi")
 
-#ulesanne 4
-print("Labimoodu leidmine ")
-#l-umbermoot
-l=float(input("Umbermood:" ))
-d=l/pi
-print(f"Labimoodu suurus on {round(d,2)}")
+# #ulesanne 4
+# print("Labimoodu leidmine ")
+# #l-umbermoot
+# l=float(input("Umbermood:" ))
+# d=l/pi
+# print(f"Labimoodu suurus on {round(d,2)}")
+
+#ulesanne 5
+print("Найти диагональ прямоугольного учаска ")
+N=float(input("Введите длинну в метрах "))
+M=float(input("Введите ширину в метрах "))
+d=float(sqrt(N**2+M**2))
+print(f"Длина диагонали прямоугольного участка = {d}")
+

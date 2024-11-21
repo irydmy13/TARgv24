@@ -41,9 +41,18 @@ from math import * # pi
 # d=sqrt(N**2+M**2)
 # print(f"Длина диагонали прямоугольника = {round(d,2)} метров")
 
-#ulesanne 6
-time=float(input("Сколько часов вам потребовалось, чтобы доехать? ")) 
-distance=float(input("Сколько километров вы проехали? ")) 
-speed=distance/time 
-print(f"Ваша скорость была {round(speed,2)} км/ч")
+# #ulesanne 6
+# time=float(input("Сколько часов вам потребовалось, чтобы доехать? ")) 
+# distance=float(input("Сколько километров вы проехали? ")) 
+# speed=distance/time 
+# print(f"Ваша скорость была {round(speed,2)} км/ч")
 
+#ulesanne 7
+print("Найти среднее арифметическое 5 любых целых чисел.")
+a=int(input("Введите первое число = "))
+b=int(input("Введите второе число = "))
+c=int(input("Введите третье число = "))
+d=int(input("Введите четвёртое число = "))
+e=int(input("Введите пятое число = "))
+F=(a+b+c+d+e)/5
+print(f"Среднее арифметическое = {F}")

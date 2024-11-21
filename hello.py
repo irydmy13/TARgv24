@@ -1,6 +1,7 @@
 from random import * # *-koik funktsioonid
 #import ->
-from math import * # pi
+from math import *
+from re import X # pi
 # #ulesanne 1
 # print("Hello World!")
 # nimi=input("Mis on sinu nimi? ") .capitalize() #lower()-aaa, upper()-AAA, capitalize()-Aaa
@@ -57,8 +58,17 @@ from math import * # pi
 # F=(a+b+c+d+e)/5
 # print(f"Среднее арифметическое = {F}")
 
-#ulesanne 8
-print("    @..@")
-print("   (----)")
-print("  ( \__/ )")
-print("   ^^  ^^")
+# #ulesanne 8
+# print("    @..@")
+# print("   (----)")
+# print("  ( \__/ )")
+# print("   ^^  ^^")
+
+#ulesanne 9
+print("Посчитаем периметр треугольника")
+z=int(input("Введите длинну первой стороны "))
+x=int(input("Введите длинну второй стороны "))
+v=int(input("Введите длинну третьей стороны "))
+P=z+v+x
+print(f"Периметр = {P}")
+

@@ -68,5 +68,5 @@ from math import *
 
 a="kill-koll".capitalize()
 b="killadi-koll ".capitalize()
-print(f"{a}-{b}/n{a}-{b}/n{a}{c}-{b}/n{a}-{b}/n{a}-{b}/n")
-print(a*2, b, a*2, b, a*4)
+
+print(a*2 , b , a*2 , b , a*4)

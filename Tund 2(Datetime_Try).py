@@ -1,14 +1,60 @@
 from datetime import *
-from re import M
+from calendar import *
+from random import *
+from math import *
 
-#Ulesanne 1
-tana=date.today() #mimetus()-funksioon
-tanaf=date.today().strftime("%B %d?, %Y")
+# #Ulesanne 1
+# paevadekogus=monthrange(2024,11)[1]
+# print(paevadekogus)
 
-print(f"Tere! Tana on {tanaf}")
-d=tana.day
-m=tana.month
-y=tana.year
-print(d)
-print(m)
-print(y)
+# tana=date.today() #mimetus()-funksioon
+# tanaf=date.today().strftime("%B %d?, %Y")
+
+# print(f"Tere! Tana on {tanaf}")
+# d=tana.day #nimetus - omadus
+# m=tana.month
+# y=tana.year
+# print(d)
+# print(m)
+# print(y)
+
+# detsP=monthrange(2024,12)[1] #31
+# novP=monthrange(2024,11)[1] #30
+# jaak=detsP+novP-d
+# jaak2=novP-d
+# print(f"Aasta loppuni on {jaak}")
+# print(f"Kuu lopuni on {jaak2}")
+
+#Ulesanne 2
+
+# print("Какие есть варианты ответов для операции 3+8/(4 - 2)*4?")
+# a = 3 + 8 / (4 - 2) * 4 
+# a1 = 3 + 8 / 4 - 2 * 4 
+# a2 = (3 + 8) / (4 - 2) * 4
+# print(f"1. 3+8/(4-2)*4 = {a}")
+# print(f"2. 3+8/4-2*4 = {a1}")
+# print(f"3. (3+8)/(4-2)*4 = {a2}")
+
+# #Ulesanne 3
+try:
+	R=float(input("Sisesta R: "))
+	Sk=pi*R**2
+	Lk=2*pi*R
+	Skv=(2*R)**2
+	Lkv=2*R*4
+	print(f"Ruudu pindald on {Sk}\nRingi umnbermoot on {Lk}\nRuudu pindala on {Lkv}\nRuudu umnbermoot on {Lkv}\n")
+except:
+	print("On vaja number!")
+
+#2 variant
+R=round(random()*100) #0.0...1.0
+print(f"R={R}")
+Sk=pi*R**2
+Lk=2*pi*R
+Skv=(2*R)**2
+Lkv=2*R*4
+print(f"Ruudu pindald on {Sk}\nRingi umnbermoot on {Lk}\nRuudu pindala on {Lkv}\nRuudu umnbermoot on {Lkv}\n")
+# R=float(input("Введите радиус круга: "))
+# d = R ** 2 # Площадь квадрата
+
+# P = 4 * R

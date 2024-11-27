@@ -66,11 +66,7 @@ from math import *
 
 #Ulesanne 5
 
-a=Kill
-b=Koll
-c=adi
-
+a="kill-koll".capitalize()
+b="killadi-koll ".capitalize()
 print(f"{a}-{b}/n{a}-{b}/n{a}{c}-{b}/n{a}-{b}/n{a}-{b}/n")
-kill-koll kill-koll killadi-koll kill-koll kill-koll killadi-koll kill-koll kill-koll killkoll
-kill-koll
-print("")
+print(a*2, b, a*2, b, a*4)

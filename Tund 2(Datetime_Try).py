@@ -56,13 +56,21 @@ from math import *
 # Lkv=2*R*4
 # print(f"Ruudu pindald on {Sk}\nRingi umnbermoot on {Lk}\nRuudu pindala on {Lkv}\nRuudu umnbermoot on {Lkv}\n")
 
-#Ulesanne 4
-d=2.575 #mundi d sm
-maa=6378 #maa radius km
-maa*=100000 #radius sm
-Lmaa=2*pi*maa
-kogus=Lmaa/d
-print(f"On vaja {kogus} mundi.\nMeil on valja {kogus*2} eur")
+# #Ulesanne 4
+# d=2.575 #mundi d sm
+# maa=6378 #maa radius km
+# maa*=100000 #radius sm
+# Lmaa=2*pi*maa
+# kogus=Lmaa/d
+# print(f"On vaja {kogus} mundi.\nMeil on valja {kogus*2} eur")
 
 #Ulesanne 5
 
+a=Kill
+b=Koll
+c=adi
+
+print(f"{a}-{b}/n{a}-{b}/n{a}{c}-{b}/n{a}-{b}/n{a}-{b}/n")
+kill-koll kill-koll killadi-koll kill-koll kill-koll killadi-koll kill-koll kill-koll killkoll
+kill-koll
+print("")

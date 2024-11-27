@@ -36,25 +36,33 @@ from math import *
 # print(f"3. (3+8)/(4-2)*4 = {a2}")
 
 # #Ulesanne 3
-try:
-	R=float(input("Sisesta R: "))
-	Sk=pi*R**2
-	Lk=2*pi*R
-	Skv=(2*R)**2
-	Lkv=2*R*4
-	print(f"Ruudu pindald on {Sk}\nRingi umnbermoot on {Lk}\nRuudu pindala on {Lkv}\nRuudu umnbermoot on {Lkv}\n")
-except:
-	print("On vaja number!")
 
-#2 variant
-R=round(random()*100) #0.0...1.0
-print(f"R={R}")
-Sk=pi*R**2
-Lk=2*pi*R
-Skv=(2*R)**2
-Lkv=2*R*4
-print(f"Ruudu pindald on {Sk}\nRingi umnbermoot on {Lk}\nRuudu pindala on {Lkv}\nRuudu umnbermoot on {Lkv}\n")
-# R=float(input("Введите радиус круга: "))
-# d = R ** 2 # Площадь квадрата
+# try:
+# 	R=float(input("Sisesta R: "))
+# 	Sk=pi*R**2
+# 	Lk=2*pi*R
+# 	Skv=(2*R)**2
+# 	Lkv=2*R*4
+# 	print(f"Ruudu pindald on {Sk}\nRingi umnbermoot on {Lk}\nRuudu pindala on {Lkv}\nRuudu umnbermoot on {Lkv}\n")
+# except:
+# 	print("On vaja number!")
 
-# P = 4 * R
+# #2 variant
+# R=round(random()*100) #0.0...1.0
+# print(f"R={R}")
+# Sk=pi*R**2
+# Lk=2*pi*R
+# Skv=(2*R)**2
+# Lkv=2*R*4
+# print(f"Ruudu pindald on {Sk}\nRingi umnbermoot on {Lk}\nRuudu pindala on {Lkv}\nRuudu umnbermoot on {Lkv}\n")
+
+#Ulesanne 4
+d=2.575 #mundi d sm
+maa=6378 #maa radius km
+maa*=100000 #radius sm
+Lmaa=2*pi*maa
+kogus=Lmaa/d
+print(f"On vaja {kogus} mundi.\nMeil on valja {kogus*2} eur")
+
+#Ulesanne 5
+

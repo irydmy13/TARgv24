@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "hello", "hello.pyproj", "{A536AA98-315A-4977-BE60-BB94E0040686}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TARgv24", "TARgv24.pyproj", "{A536AA98-315A-4977-BE60-BB94E0040686}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

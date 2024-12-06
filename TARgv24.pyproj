@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a536aa98-315a-4977-be60-bb94e0040686</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>Tund 2(Datetime_Try).py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>Iseseisevtöö. ValiklausedRuutvõrrand.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>hello</Name>
+    <Name>TARgv24</Name>
     <RootNamespace>hello</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -24,7 +25,7 @@
     <Compile Include="hello.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Iseseisevtöö. ValiklausedRuutvõrrand" />
+    <Content Include="Iseseisevtöö. ValiklausedRuutvõrrand.py" />
     <Content Include="Tund 2%28Datetime_Try%29.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

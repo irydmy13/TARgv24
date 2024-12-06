@@ -50,3 +50,54 @@
 #         print("Ошибка: введите корректное числовое значение.")
 # else:
 #     print("Вы выбрали не расшифровывать порядковый номер дня недели.")
+
+# #ulesanna 4
+# def zodiac_sign(day, month):
+#     # Проверяем, что день и месяц в допустимом диапазоне
+#     if month == 1:
+#         return "Козерог" if day <= 19 else "Водолей"
+#     elif month == 2:
+#         return "Водолей" if day <= 18 else "Рыбы"
+#     elif month == 3:
+#         return "Рыбы" if day <= 20 else "Овен"
+#     elif month == 4:
+#         return "Овен" if day <= 20 else "Телец"
+#     elif month == 5:
+#         return "Телец" if day <= 21 else "Близнецы"
+#     elif month == 6:
+#         return "Близнецы" if day <= 20 else "Рак"
+#     elif month == 7:
+#         return "Рак" if day <= 22 else "Лев"
+#     elif month == 8:
+#         return "Лев" if day <= 22 else "Дева"
+#     elif month == 9:
+#         return "Дева" if day <= 22 else "Весы"
+#     elif month == 10:
+#         return "Весы" if day <= 22 else "Скорпион"
+#     elif month == 11:
+#         return "Скорпион" if day <= 21 else "Стрелец"
+#     elif month == 12:
+#         return "Стрелец" if day <= 21 else "Козерог"
+#     else:
+#         return "Неверный месяц"
+
+# # Запрашиваем день и месяц рождения пользователя
+# try:
+#     day = int(input("Введите день рождения (от 1 до 31): "))
+#     month = int(input("Введите месяц рождения (от 1 до 12): "))
+    
+#     # Проверяем, что день и месяц в допустимом диапазоне
+#     if 1 <= day <= 31 and 1 <= month <= 12:
+#         # Проверяем на корректность дней для каждого месяца
+#         if (month == 2 and day > 29) or \
+#            (month in [4, 6, 9, 11] and day > 30) or \
+#            (month not in [2, 4, 6, 9, 11] and day > 31):
+#             print("Ошибка: Неверное количество дней в этом месяце.")
+#         else:
+#             # Определяем знак зодиака
+#             sign = zodiac_sign(day, month)
+#             print(f"Ваш знак зодиака: {sign}")
+#     else:
+#         print("Ошибка: Неверные значения дня или месяца.")
+# except ValueError:
+#     print("Ошибка: Пожалуйста, введите корректные числовые значения для дня и месяца.")

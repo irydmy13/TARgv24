@@ -24,6 +24,7 @@
     <Compile Include="hello.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Iseseisevtöö. ValiklausedRuutvõrrand" />
     <Content Include="Tund 2%28Datetime_Try%29.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

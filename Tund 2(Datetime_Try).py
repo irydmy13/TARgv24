@@ -64,9 +64,10 @@ from math import *
 # kogus=Lmaa/d
 # print(f"On vaja {kogus} mundi.\nMeil on valja {kogus*2} eur")
 
-#Ulesanne 5
+# #Ulesanne 5
 
-a="kill-koll".capitalize()
-b="killadi-koll ".capitalize()
+# a="kill-koll".capitalize()
+# b="killadi-koll ".capitalize()
 
-print(a*2 , b , a*2 , b , a*4)
+# print(a*2 , b , a*2 , b , a*4)
+
